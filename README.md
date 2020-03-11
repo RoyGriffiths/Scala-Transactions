@@ -1,6 +1,6 @@
 # Scala-Transactions
 
-A basic Scala program that takes in a transaction file for different users, then depending on the task calculates the:
+A Scala program that takes in a transaction file for different users, then depending on the task calculates the:
 
 1) Total transaction amount for each day.
 2) Average value of transactions per account for each type of transaction. 
