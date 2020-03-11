@@ -14,7 +14,7 @@ case class Transaction(
 object ScalaTransactions extends App {
 
   // Here we detail where to find the transactions.txt file.
-  val fileName = "C:\\Users\\Royah\\Desktop\\Programming\\Quantexa\\transactions.txt"
+  val fileName = "C:\\Users\\Royah\\Desktop\\Programming\\transactions.txt"
   val transactionslines = Source.fromFile(fileName).getLines().drop(1)
 
   val transactions: List[Transaction] = transactionslines.map { line =>
