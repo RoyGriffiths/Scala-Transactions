@@ -1,9 +1,8 @@
-
-
 import scala.io.Source
 import scala.math.{abs, max}
 import java.io._
 
+//By Roy Griffiths.
 case class Transaction(
                         transactionId: String,
                         accountId: String,
